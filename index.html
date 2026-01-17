@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Intro to Tailwind CSS</title>
+</head>
+<body>
+    <h1 class="text-7xl font-bold">Intro to Tailwind</h1>
+    <h3 class="text-5xl">Exploring CSS via Utility Class</h3>
+    <p class="underline font-semibold">This is exciting</p>
+    <p class="underline font-semibold bg-red-900">This is exciting</p>
+    <p class="underline font-semibold bg-green-500">This is exciting</p>
+    <p class="text-center h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500">I am exploring tailwind</p>
+
+    <section class="max-w-7xl mx-auto border">
+        <h3>My section title</h3>
+        <h3 class="text-3xl border m-4">My section title 2</h3>
+        <p class="border pt-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore non fugiat voluptates ad eius quibusdam ullam laborum impedit deleniti dolores voluptatum sequi, soluta aperiam reprehenderit itaque ratione. Optio beatae aspernatur nesciunt impedit aperiam quo architecto, iusto porro quaerat itaque suscipit dolor. Rerum modi excepturi itaque debitis fugit alias sunt ex incidunt eligendi mollitia! Sapiente ratione enim quibusdam voluptatem quod quo deserunt maxime laboriosam numquam voluptates, perspiciatis sequi. Deleniti assumenda voluptatem debitis facilis quo atque excepturi rerum explicabo facere. Ipsa totam obcaecati minima sunt dolorum excepturi, veritatis corrupti eveniet ratione dolores sequi, officia error nobis illum debitis porro atque ducimus ipsum?</p>
+    </section>
+
+    <section class="bg-pink-300 sm:bg-red-500 md:bg-green-500 lg:bg-yellow-500">
+        <h3 class="text-3xl">My Responsive section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque officia dicta consequatur earum est, nulla voluptatum molestias debitis inventore laboriosam laudantium itaque. Culpa repudiandae nemo voluptatibus atque amet nobis corporis?</p>
+    </section>
+
+    <section class="lg:flex">
+        <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-900
+            ">Item 1</div>
+        <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-900
+            ">Item 2</div>
+        <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-900
+            ">Item 3</div>
+        <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-900
+            ">Item 4</div>
+
+    </section>
+
+    <!-- grid section -->
+     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-2 gap-y-8">
+        <div class="bg-pink-300 text-2xl">Box - 1</div>
+        <div class="bg-pink-300 text-2xl">Box - 2</div>
+        <div class="bg-pink-300 text-2xl">Box - 3</div>
+        <div class="bg-pink-300 text-2xl xl:row-span-4">Box - 4</div>
+        <div class="bg-pink-300 text-2xl col-span-2">Box - 5</div>
+        <div class="bg-pink-300 text-2xl">Box - 6</div>
+        <div class="bg-pink-300 text-2xl">Box - 7</div>
+        <div class="bg-pink-300 text-2xl">Box - 8</div>
+        <div class="bg-pink-300 text-2xl">Box - 9</div>
+        <div class="bg-pink-300 text-2xl">Box - 10</div>
+        <div class="bg-pink-300 text-2xl">Box - 11</div>
+        <div class="bg-pink-300 text-2xl">Box - 12</div>
+     </section>
+
+     <section>
+        <h3 class=" text-7xl bg-cyan-500 m-48" >Some text</h3>
+     </section>
+</body>
+</html>
